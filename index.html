@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array to List</title>
+        <style>
+            body{margin-top:10%}
+            textarea{width:80%;height:200px}
+            pre code {background-color:#1E1E1E;border: none;color:rgb(255, 255, 255);display: block;padding: 20px;width:80%}
+            ul{color: #569CD6!important}
+            code{text-align: left;}
+         /*    li{color: rgb(103, 68, 217)!important} */
+        </style>
+    </head>
+    <body>
+        <center>
+            <div>
+                <div>
+                    <h3>Array to List</h3>                
+                </div>
+                <div>
+                    <textarea id="list" value=''></textarea>            
+                </div>
+                <p>
+                    <button onclick="document.getElementById('result').innerHTML =  arrayToHtml()">Convert</button>
+                </p>
+            </div>
+        
+            <div>
+                <pre>
+                    <code id="result"></code>
+                </pre>
+            </div>
+        </center>        
+    </body>
+    <footer>
+        <script src="index.js"></script>                
+    </footer>
+</html>
