@@ -15,7 +15,7 @@ var arrayItems = {
             'Laravel',
             'Codeingiter'
         ],
-	    'Python':'food',
+	    'Python':[],
 	    'Java':[]
     },
 	'Movies':[
